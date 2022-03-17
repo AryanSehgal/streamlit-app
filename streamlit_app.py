@@ -169,16 +169,16 @@ if __name__ == '__main__':
     st.text("M AMAN CHAUDHRY - 2019UCS2020")
     st.success("Welcome! Please upload an image!")   
     
-    args = { 'sunset' : 'imgs/sunset.jpeg' }
+    args = { 'tree' : 'imgs/tree3.webp' }
     
     img_upload  = st.file_uploader(label= 'Upload Image', type = ['png', 'jpg', 'jpeg','webp'])
     
-    img_open = args['sunset'] if img_upload is None else img_upload
+    img_open = args['tree'] if img_upload is None else img_upload
     
     image = load_output_image(img_open)
     
     st.sidebar.markdown('''
-    # Pro Tips
+    # SOME TIPS
     If you are getting funny/random predictions \n
     1. Prefer using the app from PC :computer: \n
     2. It works best with interaction of people with objects.\n    

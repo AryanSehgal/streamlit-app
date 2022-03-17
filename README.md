@@ -3,5 +3,7 @@
 AI Hardware and Tools Workshop
 
 Made By :
-ARYAN SEHGAL 
-M AMAN CHAUDHRY
+
+**ARYAN SEHGAL 
+
+**M AMAN CHAUDHRY

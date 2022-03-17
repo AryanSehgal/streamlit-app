@@ -161,10 +161,9 @@ if __name__ == '__main__':
     download_data()
     vocab, encoder, decoder = load_model()
     
-    pytorch_image = pypng()
-    st.image(pytorch_image, width = 500)
     
     st.title("The Image Captioning Bot")
+    st.text("AI Hardware and Tools Workshop")
     st.text("Efforts By :- ")
     st.text("ARYAN SEHGAL - 2019UCS2019")
     st.text("M AMAN CHAUDHRY - 2019UCS2020")
@@ -181,21 +180,16 @@ if __name__ == '__main__':
     st.sidebar.markdown('''
     # Pro Tips
     If you are getting funny/random predictions \n
-    1. Prefer using the app from PC :computer:
-    2. It works best with interaction of people with objects.
-    3. Profile pictures(Whatsapp) are \n good candidates!
-    4. Very few animals work.
+    1. Prefer using the app from PC :computer: \n
+    2. It works best with interaction of people with objects.\n    
+    3. Profile pictures(Whatsapp) are good candidates!\n    
+    4. Very few animals work.\n
     
-    **Try this** :wink:
-
-    If greater than/equal to two captions say
-    you are woman, then you are more
-    feminine looking and vice-versa.
-    Upload a close-up to see! 
+     
     
     ''')
     
-    st.sidebar.markdown('''Check the model details [here](https://github.com/sankalp1999/Image_Captioning)
+    st.sidebar.markdown('''Check the model details [here](https://github.com/AryanSehgal/streamlit-app)
     \n Liked it? Give a :star:  on GitHub ''')
     
     st.image(image,use_column_width=True,caption="Your image")

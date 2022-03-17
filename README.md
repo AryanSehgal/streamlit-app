@@ -4,6 +4,6 @@ AI Hardware and Tools Workshop
 
 Made By :
 
-**ARYAN SEHGAL 
+**ARYAN SEHGAL**
 
-**M AMAN CHAUDHRY
+**M AMAN CHAUDHRY**
